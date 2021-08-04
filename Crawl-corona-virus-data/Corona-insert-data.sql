@@ -1,0 +1,25 @@
+INSERT INTO COUNTRY VALUES ('PH', 'Philippines');
+INSERT INTO COUNTRY VALUES ('VN', 'Vietnam');
+INSERT INTO COUNTRY VALUES('ID','Indonesia');
+
+DELETE FROM CORONAVIRUS_CASES;
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-15', 'PH', '0','29','12','140');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-16', 'PH', '1','2','12','142');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-17', 'PH', '1','45','14','187');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-18', 'PH', '3','15','17','202');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-19', 'PH', '1','15','17','217');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-20', 'PH', '0','13','18','230');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-21', 'PH', '5','77','19','307');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-22', 'PH', '2','73','25','380');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-23', 'PH', '3','82','33','462');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-24', 'PH', '2','90','35','552');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-15', 'ID', '0','21','0','117');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-16', 'ID', '0','17','0','134');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-17', 'ID', '1','38','2','172');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-18', 'ID', '2','18','12','227');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-19', 'ID', '4','82','6','309');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-20', 'ID', '2','60','7','369');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-21', 'ID', '3','81','6','450');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-22', 'ID', '9','64','10','514');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-23', 'ID', '1','65','1','579');
+INSERT INTO CORONAVIRUS_CASES(Date, Countrycode, New_recoveries, New_cases, New_deaths,Total_cases) values ('2020-03-24', 'ID', '0','107','6','686');

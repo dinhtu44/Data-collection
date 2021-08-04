@@ -1,0 +1,18 @@
+CREATE TABLE COUNTRY(
+	Countrycode varchar(10) primary key,
+	Countryname varchar(20)
+);
+
+CREATE TABLE CORONAVIRUS_CASES(
+	Date date primary key,
+	New_recoveries int,
+	New_cases int,
+	New_deaths int,
+	Countrycode varchar(10) references COUNTRY(Countrycode) ON DELETE CASCADE ON UPDATE CASCADE 
+);
+
+ALTER TABLE CORONAVIRUS_CASES DROP COLUMN Date; 
+ALTER TABLE CORONAVIRUS_CASES ADD Date date;
+ALTER TABLE CORONAVIRUS_CASES ADD ID SERIAL;
+ALTER TABLE CORONAVIRUS_CASES ADD PRIMARY KEY(ID);
+ALTER TABLE CORONAVIRUS_CASES ADD Total_cases int;
